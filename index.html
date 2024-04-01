@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hw5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+     <div class="container">
+        <header>
+            <img src="img/Your Logo.svg" alt="logo">
+        </header>
+    
+        <main class="main">
+            <div class="main__left">
+                <div class="main__caption">
+                    <h1 class="main__title">sign in to</h1>
+                    <h2 class="main__Subtitle">Lorem Ipsum so simply</h2>
+                </div>
+
+                <div class="main__box">
+                    <div class="main__descr">
+                        <p class="main__text">If you don’t have an account register</p>
+                        <div class="main__subtext">You can <a class="main__link"
+                         href="#">Register here !</a></div>
+
+                    </div>
+
+                    <div class="main__image">
+                        <img src="img/Saly-14.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main__right">
+                <form action="" onsubmit="successSign()">
+                    <h2 class="form__title">Sign in</h2>
+
+                    <input type="text" class="form__name" placeholder="Enter emall or user name" required>
+                    <input type="password" class="form__password" placeholder="Password" required>
+                    <img src="img/Group.svg" alt=""  class="visibility-icon" onclick="togglePasswordVision()">
+                    <div class="form__hint">
+                        <a href="#" onclick="alertForgotPssw()">Forgot password</a>
+                    </div>
+                    <input type="submit" class="form__sumbit" value="Login">
+                    
+                    <p class="form__text">or continue with</p>
+
+                    <ul class="form__links">
+                        <li class="form__links-item">
+                            <a href="https://www.facebook.com">
+                                <img src="img/Facebook.png" alt="social">
+                            </a>
+                        </li>
+                        <li class="form__links-item">
+                            <a href="https://www.apple.com">
+                                <img src="img/apple.svg" alt="social">
+                            </a>
+                        </li>
+                        <li class="form__links-item">
+                            <a href="https://google.com">
+                                <img src="img/google.png" alt="social">
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </main>
+    
+    
+    
+    
+    </div>
+</body>
+</html>
